@@ -19,6 +19,6 @@ public class HourlyEmployee extends Employee{
     
     @Override
     public int payment(){
-        return hourlyPayment*hoursWorked;
+        return getHourlyPayment()*getHoursWorked();
     }
 }
